@@ -1,0 +1,29 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
+
+
+:root {
+    --blue: #6495ed;
+    --white: #faf0e6;
+    --border-color: rgba(0,0,0,.075);
+    --black: #000;
+    --marginTop: 65px;
+    --miqo-color: #ED1C24;
+    
+    --bc-dark-color: rgba(255, 255, 255, .75);
+  }
+
+body{ /*font-family: 'Lineto', sans-serif;*/ padding-top: 60px;}
+/* .footer { position: fixed; left: 0; bottom: 0; width: 100%;} */
+
+nav.navbar{height: 60px}
+
+.centered{width:164px; height:164px; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:transparent; /*! filter: blur(10px) contrast(20); */ }
+/*.shadow {box-shadow: 0 .5rem 1rem rgba(0,0,0,.075) !important;}*/
+.preloader_ { display: block; position: fixed; width: 100%; height: 100%; left: 0px; top: 0; background: #fff; z-index: 999999999; }
+
+
+@media only screen and (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { max-width: 1200px; }
+}
